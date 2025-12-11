@@ -9,6 +9,7 @@
 	},
 	"scripts": {
 		"start": "node src/index.js",
+		"prepare:pages": "node scripts/prepare-static.js",
 		"format": "prettier --config .prettierrc.js --write .",
 		"lint": "eslint ./src/",
 		"lint:fix": "eslint ./src/ --fix"
